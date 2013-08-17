@@ -1,0 +1,126 @@
+@import 'bourbon';
+@import 'normalize';
+@import  'home';
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ 
+ */
+
+ 
+
+/*.nav li {
+    border:20px;
+    width:85%;
+    background-color: #ff6600;
+    display: inline;
+    margin:5px;
+    padding: 0;
+    list-style: none;
+    padding:10px;
+    }
+*/
+body{
+  margin-top:8px;
+  margin-bottom: 8px;
+  margin-right:135px;
+  margin-left:135px;
+
+}
+#main{
+  background-color: black;
+}
+.navigation-container{
+border-bottom: .5px solid #ff6600;
+background: #ff6600;
+
+}
+.navigation-container > .nav > li{
+  display:inline;
+  margin:3px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  line-spacing: 10px;
+
+}
+
+.nav{
+  padding:0;
+  margin:0;
+  list-style: none;
+
+}
+.navigation-container > .nav > .login {
+  padding: 2190px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color:black;
+  text-decoration: none;
+}
+
+
+
+.contents{
+  height: 1000px;
+  width:100%;
+  margin-top: -18px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background-color:#FEF1E1;
+} 
+
+.numbers {
+  list-style: none;
+  color: rgb(130,130,130);
+  margin-top: 10x;
+  margin-left: -15px;
+}
+
+
+.footer{
+  height:200px;
+  width: 100%;
+  margin:0;
+  border-top:2px solid #ff6600;
+  background-color:#FEF1E1;
+}
+.footer > .bottom > li{
+  display:inline;
+  margin:3px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  line-spacing: 10px;
+}
+
+.bottom {
+  padding: 15px 0 0 600px;
+}
+
+.bottom_search {
+  padding: 10px 0 0 900px;
+}
+
+.search_edit {
+  color: rgb(130,130,130);
+}
+
+
+
+
+
