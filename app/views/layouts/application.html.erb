@@ -26,20 +26,7 @@
   </div>
 
 
-
-
-  <div class="contents">
-    <div class="comments">
-      <ul class="numbers">
-        <%- 30.times do |number| -%>  
-          <li>
-            <a href="#"><%= number+1 %> Sayonara, V8 (groups.google.com)</a>
-            <br>
-          119 points by fridek 3 hours ago | 29 comments</li>
-        <%- end -%>
-      </ul>
-     </div>
-   </div>   
+<%= yield %>
 
 
   <div class="footer">
@@ -66,7 +53,7 @@
   </div>
 
 </div>
-<%= yield %>
+
 
 
 
