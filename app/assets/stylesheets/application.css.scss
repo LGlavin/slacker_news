@@ -113,12 +113,23 @@ a:visited {
   padding: 15px;
 }
 
-.numbers li a {
-  margin-top: 10x;
-  color: blue;
+.comments a{
+  color: black;
+  font-size: 12px;
+  font-family: Verdana;
 }
-.color {
-  color: green;
+.comments small {
+  color: #828282;
+  font-size: 9px;
+  margin-left: 12px; 
+}
+.digit {
+  font-size: 11px;
+  color:#828282;
+}
+.web_link {
+  font-size: 10px;
+  color: #828282;
 }
 
  #main > .footer{
