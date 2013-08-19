@@ -108,6 +108,25 @@ a:visited {
   margin-left: 0;
   background-color:#FEF1E1;*/
 }
+.top_post p {
+  color: black;
+  font-size: 10pt;
+  font-family:Verdana;
+}
+.top_post span {
+  color: #828282;
+  font-size: 7pt;
+  font-family: Verdana;
+}
+.top_post small {
+  color: #828282;
+  font-size: 7pt;
+  font-family: Verdana;
+}
+.search_container form{
+  rows:5px;
+  border: 1px;
+}
 .numbers {
   list-style:none;
   padding: 5px;
